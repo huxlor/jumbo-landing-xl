@@ -1,0 +1,95 @@
+.findexl__container{
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 50%);
+        min-height: 800px;
+
+        .grid-item{
+            /* border: 1px solid rgba(253, 253, 253, 0.8); */
+            font-size: 30px;
+            text-align: center;
+            color:  white;   
+        }
+        .right-zone{
+            padding: 0px 65px;
+            .cont-countdown{
+                margin-top:  85px;
+                p{
+                    font-weight:  700;
+                    font-size:  30px;
+                    margin-bottom: 20px;
+                }
+
+                .grid-countdown{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, 180px);
+                    grid-gap: 20px;
+                    justify-content: center;
+                    .item-countdown{
+                        padding: 10px;
+                        background: #444444;
+                        .number{
+                            font-weight:  700;
+                            font-size:  60px;
+                            line-height: 0.8;
+                        }
+
+                        .info-date{
+                            font-size:  16px;
+                            color: #95cd29;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+
+            .cont-info{
+                margin-top:  40px;
+                p{
+                    font-size:  25px;
+                    margin-bottom:  15px;
+                }
+
+                .finde-xl-image{
+                    margin-bottom:  30px;
+                    img{
+                        margin:  0 auto;
+                    }
+                }
+
+                div{
+                    font-size:  32px;
+                }
+
+                p:last-child{
+                    font-size:  23px;
+                    margin-top:  60px;
+                    span{
+                        color: #1fa02e;
+                        font-weight:  bold;
+                    }
+                }
+            }
+
+            .cont-categories{
+
+            }
+
+            .next-event{
+                font-size:  28px;
+            }
+        }
+
+        .left-zone{
+            overflow:  hidden;
+            img{
+                height:  100%;
+                max-width:  initial;
+            }
+        }
+    }
+
+    &.wrapper{
+        background-color: #1a1a1a; 
+    }
+}

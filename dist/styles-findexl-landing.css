@@ -1,0 +1,81 @@
+.findexl__container .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50%);
+  min-height: 800px;
+}
+.findexl__container .grid-container .grid-item {
+  /* border: 1px solid rgba(253, 253, 253, 0.8); */
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.findexl__container .grid-container .right-zone {
+  padding: 0px 65px;
+}
+.findexl__container .grid-container .right-zone .cont-countdown {
+  margin-top: 85px;
+}
+.findexl__container .grid-container .right-zone .cont-countdown p {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.findexl__container .grid-container .right-zone .cont-countdown .grid-countdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+.findexl__container .grid-container .right-zone .cont-countdown .grid-countdown .item-countdown {
+  padding: 10px;
+  background: #444444;
+}
+.findexl__container .grid-container .right-zone .cont-countdown .grid-countdown .item-countdown .number {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 0.8;
+}
+.findexl__container .grid-container .right-zone .cont-countdown .grid-countdown .item-countdown .info-date {
+  font-size: 16px;
+  color: #95cd29;
+  margin-top: 5px;
+}
+.findexl__container .grid-container .right-zone .cont-info {
+  margin-top: 40px;
+}
+.findexl__container .grid-container .right-zone .cont-info p {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.findexl__container .grid-container .right-zone .cont-info .finde-xl-image {
+  margin-bottom: 30px;
+}
+.findexl__container .grid-container .right-zone .cont-info .finde-xl-image img {
+  margin: 0 auto;
+}
+.findexl__container .grid-container .right-zone .cont-info div {
+  font-size: 32px;
+}
+.findexl__container .grid-container .right-zone .cont-info p:last-child {
+  font-size: 23px;
+  margin-top: 60px;
+}
+.findexl__container .grid-container .right-zone .cont-info p:last-child span {
+  color: #1fa02e;
+  font-weight: bold;
+}
+.findexl__container .grid-container .right-zone .next-event {
+  font-size: 28px;
+}
+.findexl__container .grid-container .left-zone {
+  overflow: hidden;
+}
+.findexl__container .grid-container .left-zone img {
+  height: 100%;
+  max-width: initial;
+}
+.findexl__container.wrapper {
+  background-color: #1a1a1a;
+}
+
+/*# sourceMappingURL=styles-findexl-landing.css.map */

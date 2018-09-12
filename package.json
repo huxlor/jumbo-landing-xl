@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/huxlor/jumbo-landing-xl/issues"
   },
-  "homepage": "https://github.com/huxlor/jumbo-landing-xl#readme"
+  "homepage": "https://github.com/huxlor/jumbo-landing-xl#readme",
+  "devDependencies": {
+    "sass": "^1.13.4"
+  }
 }
