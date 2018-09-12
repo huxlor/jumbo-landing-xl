@@ -1,0 +1,24 @@
+{
+  "name": "landing-xl",
+  "version": "1.0.0",
+  "description": "Langing FindeXL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huxlor/jumbo-landing-xl.git"
+  },
+  "keywords": [
+    "Landing",
+    "Xl",
+    "Jumbo"
+  ],
+  "author": "Sebastian Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huxlor/jumbo-landing-xl/issues"
+  },
+  "homepage": "https://github.com/huxlor/jumbo-landing-xl#readme"
+}

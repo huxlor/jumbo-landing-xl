@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+	<vtex:contentPlaceHolder id="metatags" />
+    <vtex:template id="metas-landings" />
+	<link rel="stylesheet" href="https://jumbocolombia.vteximg.com.br/arquivos/jumbo-font.css"/>
+	<link rel="stylesheet" type="text/css" href="/arquivos/fonts-ofd.css"/>
+	<link rel="stylesheet" type="text/css" href="/arquivos/main-ofd.css"/>
+
+	<style>
+		.grid-container{
+			display: grid;
+			grid-template-columns: repeat(auto-fit, 50%);
+			min-height: 800px;
+		}
+
+		.grid-item {
+			/* border: 1px solid rgba(253, 253, 253, 0.8); */
+			font-size: 30px;
+			text-align: center;
+			color:  white;
+		}
+
+		.wrapper.findexl__container {
+			background-color: #1a1a1a;
+		}
+
+		.left-zone img {
+			height:  100%;
+			max-width:  initial;
+		}
+
+		.left-zone {
+			overflow:  hidden;
+		}
+
+		.grid-countdown{
+			display: grid;
+			grid-template-columns: repeat(auto-fit, 180px);
+			grid-gap: 20px;
+			justify-content: center;
+		}
+
+		.item-countdown{
+			padding: 10px;
+			background: #444444;
+		}
+
+		/* Nuevos Estilos */
+		.cont-countdown p {
+			font-weight:  700;
+			font-size:  30px;
+			margin-bottom: 20px;
+		}
+
+		.cont-countdown {
+			margin-top:  85px;
+		}
+
+		.grid-countdown .item-countdown .number {
+			font-weight:  700;
+			font-size:  60px;
+			line-height: 0.8;
+		}
+
+		.grid-countdown .item-countdown .info-date {
+			font-size:  16px;
+			color: #95cd29;
+			margin-top: 5px;
+		}
+
+		.cont-info {
+			margin-top:  40px;
+		}
+
+		.cont-info p {
+			font-size:  25px;
+			margin-bottom:  15px;
+		}
+
+		.cont-info .finde-xl-image img {
+			margin:  0 auto;
+		}
+
+		.cont-info .finde-xl-image {
+			margin-bottom:  30px;
+		}
+
+		.cont-info div {
+			font-size:  32px;
+		}
+
+		.cont-info p:last-child {
+			font-size:  23px;
+			margin-top:  60px;
+		}
+
+		.cont-info p:last-child span {
+			color: #1fa02e;
+			font-weight:  bold;
+		}
+
+		.right-zone {
+			padding: 0px 65px;
+		}
+
+		.grid-countdown {
+			grid-template-columns: repeat(auto-fit, 180px);
+		}
+
+		.next-event {
+			font-size:  28px;
+		}
+	</style>
+</head>
+
+<body class="department">
+	<!-- Overlays -->
+<vtex:template id="overlay-delivery-window" />
+<vtex:template id="overlay-store-selector" />
+<vtex:template id="overlay-product-quickview" />
+<vtex:template id="overlay-added-to-cart" />
+<vtex:template id="overlay-add-shop-list" />
+<vtex:template id="overlay-added-to-lists" />
+<vtex:template id="overlay-store" />
+<!-- /Overlays -->
+
+<div id="highlight-background"></div>
+
+<!-- Preload Screen -->
+<vtex:template id="preload-screen" />
+<!-- Preload Screen -->
+
+	<!-- Header -->
+	<vtex:template id="header" />
+	<!-- /Header -->
+
+	<!-- Navigation -->
+	<vtex:template id="navigation" />
+	<!-- /Navigation -->
+	<section class="wrapper findexl__container">
+		<div class="center grid-container">
+			<div class="grid-item right-zone">
+				<div class="cont-countdown">
+					<p>FALTAN</p>
+					<div class="grid-countdown"> 
+						<div class="item-countdown">
+							<div class="number">15</div>
+							<div class="info-date">DÍAS</div>
+						</div>
+						<div class="item-countdown">
+							<div class="number">12</div>
+							<div class="info-date">HORAS</div>
+						</div>
+						<div class="item-countdown">
+							<div class="number">50</div>
+							<div class="info-date">MINUTOS</div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-info">
+					<p>PARA EL</p>
+					<div class="finde-xl-image">
+						<img src="https://jumbocolombiafood.vteximg.com.br/arquivos/FINDE-XL.png" alt="FINDE XL"/>
+					</div>
+					<div>AHORA EL FIN DE SEMANA ES MÁS LARGO.</div>
+					<p>ES EL EVENTO DE DESCUENTOS ONLINE INSIGNIA DE <span>TIENDASJUMBO.CO</span> DURANTE 4 DÍAS PODRÁS APROVECHAR LAS MEJORES OFERTAS Y DESCUENTOS EN TUS CATEGORÍAS FAVORITAS:</p>
+				</div>
+				<div class="cont-categories"></div>
+				<div class="next-event">YA VIENE EL PRÓXIMO FINDE XL. ¡ESPÉRALO!</div>
+			</div>
+			<div class="grid-item left-zone">
+				<img src="https://jumbocolombiafood.vteximg.com.br/arquivos/landing-findexl-people.jpg" alt="Evento XL Tiendas Jumbo"/>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<vtex:template id="footer" />
+	<!--<script>
+	    setTimeout(function(){
+            $('body').addClass('finde');
+        }, 500);
+    </script>-->
+	<!-- /Footer -->	
+</body>
+</html>
