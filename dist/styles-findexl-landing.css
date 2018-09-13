@@ -25,6 +25,7 @@
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 20px;
+  color: #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown {
   display: grid;
@@ -34,18 +35,27 @@
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown {
   padding: 10px;
-  background: #444444;
+  background: transparent;
+  border: solid 1px #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown .number {
   font-weight: 700;
   font-size: 60px;
   line-height: 0.8;
+  color: #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown .info-date {
-  font-size: 16px;
+  font-size: 18px;
   color: #95cd29;
   margin-top: 5px;
   letter-spacing: 3px;
+  font-weight: 600;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown::first-child {
+  border-radius: 8px 0px 0px 8px;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown::last-child {
+  border-radius: 0 8px 8px 0;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info {
   margin-top: 40px;
@@ -53,6 +63,7 @@
 .findexl__container .grid-container .right-zone .fix-width .cont-info p {
   font-size: 25px;
   margin-bottom: 15px;
+  color: #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info .finde-xl-image {
   margin-bottom: 30px;
@@ -62,6 +73,7 @@
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info div {
   font-size: 32px;
+  color: #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info p:last-child {
   font-size: 23px;
@@ -73,6 +85,7 @@
 }
 .findexl__container .grid-container .right-zone .fix-width .next-event {
   font-size: 28px;
+  color: #393939;
 }
 .findexl__container .grid-container .left-zone {
   overflow: hidden;
