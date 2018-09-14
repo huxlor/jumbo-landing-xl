@@ -12,7 +12,7 @@
         }
 
         .right-zone{
-            background-image: url('/arquivos/Desktop_Landing_EXPECTATIVA_FINDEXL-V2_02.jpg');
+            background-image: url('/arquivos/findexl-background-left.jpg');
             background-position-x: 100%;
             .fix-width{ 
                 max-width: 720px;
@@ -20,10 +20,10 @@
                 padding: 0px 65px;
                 .cont-countdown{
                     margin-top:  85px; 
-                    p{
+                    p{ 
                         font-weight:  700;
-                        font-size:  30px;
-                        margin-bottom: 20px; 
+                        font-size:  35px;
+                        margin-bottom: 25px; 
                         color: #393939; 
                     } 
     
@@ -33,14 +33,14 @@
                         grid-gap: 20px;
                         justify-content: center;
                         .item-countdown{
-                            padding: 10px;
-                            background: transparent;
+                            padding: 20px;
+                            background: #fff;
                             border: solid 1px #393939; 
                             .number{
                                 font-weight:  700;
                                 font-size:  60px;
                                 line-height: 0.8; 
-                                color: #393939;    
+                                color: #393939;      
                             }
     
                             .info-date{
@@ -51,11 +51,11 @@
                                 font-weight: 600; 
                             }
 
-                            &::first-child{
+                            &:first-child{
                                 border-radius: 8px 0px 0px 8px;
-                            }
+                            } 
 
-                            &::last-child{
+                            &:last-child{
                                 border-radius: 0 8px 8px 0;
                             }
                         }
@@ -63,7 +63,7 @@
                 }
     
                 .cont-info{
-                    margin-top:  40px;
+                    margin-top:  20px;
                     p{
                         font-size:  25px;
                         margin-bottom:  15px;
@@ -83,8 +83,9 @@
                     }
     
                     p:last-child{
-                        font-size:  23px;
-                        margin-top:  60px;
+                        font-size:  21px;
+                        width: 70%;
+                        margin: 0 auto;
                         span{
                             color: #1fa02e;
                             font-weight:  bold; 
@@ -93,26 +94,93 @@
                 }
     
                 .cont-categories{
-    
+                    padding: 0 50px;
+                    margin: 50px 0;
+                    .top{
+                        display: grid;
+                        height: 100%;
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr;
+                        grid-gap: 15px 15px;
+                        grid-template-areas: "tecnologia electro bebes hogar";
+                        margin-bottom: 40px;
+                        .tecnologia { 
+                            grid-area: tecnologia; 
+                        }
+
+                        .electro { 
+                            grid-area: electro; 
+                        }
+
+                        .bebes { 
+                            grid-area: bebes; 
+                        }
+
+                        .supermercado { 
+                            grid-area: 2 / 4 / 3 / 5; 
+                        }
+
+                        .hogar { 
+                            grid-area: hogar; 
+                        }
+                    }
+
+                    .bottom{
+                        display: grid;
+                        height: 100%;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-rows: 1fr;
+                        grid-gap: 15px 15px;
+                        grid-template-areas: "deportes auto supermercado";
+                        padding: 0px 60px;
+                        .supermercado { 
+                            grid-area: supermercado; 
+                        }
+
+                        .deportes {  
+                            grid-area: deportes; 
+                        }
+
+                        .auto { 
+                            grid-area: auto; 
+                        }
+
+                        .supermercado { 
+                            grid-area: supermercado;  
+                        }
+                    }
                 }
     
                 .next-event{
-                    font-size:  28px;
+                    font-size: 31px;
                     color: #393939;
+                    font-weight: 400;   
+                }
+
+                .go-to-home{
+                    a{
+                    font-size: 23px;
+                    text-decoration: underline;
+                    font-weight: 500;
+                    text-align: right;
+                    width: 100%;
+                    margin-top: 60px;
+                    color: #393939; 
+                    }
                 }
             }
         }
 
         .left-zone{
-            overflow:  hidden;
             img{
                 height:  100%;
                 max-width:  initial;
+                margin-left: -95px;
             }
         }
     }
 
     &.wrapper{
-        background-color: #1a1a1a; 
+        background-color: #fff; 
     }
 }

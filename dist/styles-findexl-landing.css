@@ -10,7 +10,7 @@
   color: white;
 }
 .findexl__container .grid-container .right-zone {
-  background-image: url("/arquivos/Desktop_Landing_EXPECTATIVA_FINDEXL-V2_02.jpg");
+  background-image: url("/arquivos/findexl-background-left.jpg");
   background-position-x: 100%;
 }
 .findexl__container .grid-container .right-zone .fix-width {
@@ -23,8 +23,8 @@
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown p {
   font-weight: 700;
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 35px;
+  margin-bottom: 25px;
   color: #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown {
@@ -34,8 +34,8 @@
   justify-content: center;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown {
-  padding: 10px;
-  background: transparent;
+  padding: 20px;
+  background: #fff;
   border: solid 1px #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown .number {
@@ -51,14 +51,14 @@
   letter-spacing: 3px;
   font-weight: 600;
 }
-.findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown::first-child {
+.findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown:first-child {
   border-radius: 8px 0px 0px 8px;
 }
-.findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown::last-child {
+.findexl__container .grid-container .right-zone .fix-width .cont-countdown .grid-countdown .item-countdown:last-child {
   border-radius: 0 8px 8px 0;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info p {
   font-size: 25px;
@@ -76,26 +76,84 @@
   color: #393939;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info p:last-child {
-  font-size: 23px;
-  margin-top: 60px;
+  font-size: 21px;
+  width: 70%;
+  margin: 0 auto;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-info p:last-child span {
   color: #1fa02e;
   font-weight: bold;
 }
-.findexl__container .grid-container .right-zone .fix-width .next-event {
-  font-size: 28px;
-  color: #393939;
+.findexl__container .grid-container .right-zone .fix-width .cont-categories {
+  padding: 0 50px;
+  margin: 50px 0;
 }
-.findexl__container .grid-container .left-zone {
-  overflow: hidden;
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .top {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 15px 15px;
+  grid-template-areas: "tecnologia electro bebes hogar";
+  margin-bottom: 40px;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .top .tecnologia {
+  grid-area: tecnologia;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .top .electro {
+  grid-area: electro;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .top .bebes {
+  grid-area: bebes;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .top .supermercado {
+  grid-area: 2/4/3/5;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .top .hogar {
+  grid-area: hogar;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .bottom {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 15px 15px;
+  grid-template-areas: "deportes auto supermercado";
+  padding: 0px 60px;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .bottom .supermercado {
+  grid-area: supermercado;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .bottom .deportes {
+  grid-area: deportes;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .bottom .auto {
+  grid-area: auto;
+}
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .bottom .supermercado {
+  grid-area: supermercado;
+}
+.findexl__container .grid-container .right-zone .fix-width .next-event {
+  font-size: 31px;
+  color: #393939;
+  font-weight: 400;
+}
+.findexl__container .grid-container .right-zone .fix-width .go-to-home a {
+  font-size: 23px;
+  text-decoration: underline;
+  font-weight: 500;
+  text-align: right;
+  width: 100%;
+  margin-top: 60px;
+  color: #393939;
 }
 .findexl__container .grid-container .left-zone img {
   height: 100%;
   max-width: initial;
+  margin-left: -95px;
 }
 .findexl__container.wrapper {
-  background-color: #1a1a1a;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=styles-findexl-landing.css.map */
