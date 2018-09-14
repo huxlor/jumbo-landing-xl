@@ -12,6 +12,7 @@
 .findexl__container .grid-container .right-zone {
   background-image: url("/arquivos/findexl-background-left.jpg");
   background-position-x: 100%;
+  background-size: auto 100%;
 }
 .findexl__container .grid-container .right-zone .fix-width {
   max-width: 720px;
@@ -87,6 +88,9 @@
 .findexl__container .grid-container .right-zone .fix-width .cont-categories {
   padding: 0 50px;
   margin: 50px 0;
+  color: #323232;
+  font-size: 15px;
+  font-weight: 600;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-categories .top {
   display: grid;
@@ -95,7 +99,7 @@
   grid-template-rows: 1fr;
   grid-gap: 15px 15px;
   grid-template-areas: "tecnologia electro bebes hogar";
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .findexl__container .grid-container .right-zone .fix-width .cont-categories .top .tecnologia {
   grid-area: tecnologia;
@@ -133,6 +137,11 @@
 .findexl__container .grid-container .right-zone .fix-width .cont-categories .bottom .supermercado {
   grid-area: supermercado;
 }
+.findexl__container .grid-container .right-zone .fix-width .cont-categories .font-icn-cat {
+  font-size: 40px;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
 .findexl__container .grid-container .right-zone .fix-width .next-event {
   font-size: 31px;
   color: #393939;
@@ -146,11 +155,12 @@
   width: 100%;
   margin-top: 60px;
   color: #393939;
+  margin-bottom: 50px;
 }
 .findexl__container .grid-container .left-zone img {
   height: 100%;
   max-width: initial;
-  margin-left: -95px;
+  margin-left: -112px;
 }
 .findexl__container.wrapper {
   background-color: #fff;
