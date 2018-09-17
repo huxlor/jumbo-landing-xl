@@ -24,7 +24,11 @@
                 @media screen and (max-width: 1440px) {
                     float: initial;
                     margin: 0 auto;
-                  }
+                }
+
+                @media screen and (max-width: 600px) {
+                    padding: 0px 10px;
+                }
                 .cont-countdown{
                     margin-top:  85px; 
                     p{ 
@@ -42,11 +46,25 @@
                         @media screen and (max-width: 960px) {
                             grid-template-columns: repeat(3, 1fr);
                         }
+
+                        @media screen and (max-width: 600px) {
+                            grid-gap: 10px;
+                        }
                         .item-countdown{
                             padding: 20px;
                             background: #fff;
                             border: solid 1px #393939; 
-                            .number{
+                            @media screen and (max-width: 600px) {
+                                padding: 5px;
+                                .number{
+                                    font-size: 40px !important;
+                                }
+
+                                .info-date{
+                                    font-size:  12px !important; 
+                                }
+                            }
+                            .number{ 
                                 font-weight:  700;
                                 font-size:  60px;
                                 line-height: 0.8; 
@@ -74,6 +92,15 @@
     
                 .cont-info{
                     margin-top:  20px;
+                    @media screen and (max-width: 480px) {
+                        p{
+                            font-size:  16px !important;
+                        }
+
+                        p:last-child{
+                            width: 100% !important;
+                        }
+                    }
                     p{
                         font-size:  25px;
                         margin-bottom: -10px; 
@@ -168,12 +195,31 @@
                         font-weight: 100;
                         padding-bottom: 5px;
                     }
+
+                    @media screen and (max-width: 480px) {
+                        padding: 0 5px;
+                        .top,.bottom{
+                            display: inline-block;
+                            width: 100%;
+                            padding: 0;
+                            margin: 0;
+                            & > div{
+                                float: right;
+                                width: 50%;
+                                text-align: center;
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
                 }
     
                 .next-event{
                     font-size: 25px;
                     color: #393939;
                     font-weight: 400;   
+                    @media screen and (max-width: 480px) {
+                        font-size: 18px;
+                    }
                 }
 
                 .go-to-home{
@@ -186,6 +232,12 @@
                     margin-top: 60px;
                     color: #393939; 
                     margin-bottom: 50px;
+                    }
+
+                    @media screen and (max-width: 480px) {
+                        a{
+                            text-align: center;
+                        }
                     }
                 }
             }
@@ -205,5 +257,8 @@
 
     &.wrapper{
         background-color: #fff; 
-    }
+        @media screen and (max-width: 960px) and (min-width: 761px) { 
+            min-width: initial !important;
+        } 
+    } 
 }
