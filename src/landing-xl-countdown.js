@@ -38,4 +38,4 @@ const getRemainTime = deadline => {
     };
 
 
-    countDown('Jan 17 2019 00:00:00 GMT-0500');
+    countDown('Feb 14 2019 00:00:00 GMT-0500');
